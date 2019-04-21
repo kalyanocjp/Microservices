@@ -7,4 +7,4 @@ spring:
         git:
           uri: https://github.com/kalyanocjp/Microservices.git
           search-paths:
-          - 'config/service*'
+          - 'service*'
