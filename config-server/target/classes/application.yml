@@ -1,2 +1,10 @@
 server:
   port: 9081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kalyanocjp/Microservices.git
+          search-paths:
+          - 'config/service*'
