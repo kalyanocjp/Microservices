@@ -1,0 +1,3 @@
+service:
+  greeting: Hello from service2
+  id: Service2-04212019
