@@ -1,6 +1,9 @@
 server:
   port: 9081
 spring:
+  profiles:
+    active:
+    - include,active
   cloud:
     config:
       server:
